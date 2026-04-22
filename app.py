@@ -5,6 +5,3 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return "Hello! Idhu en first website 🔥"
-
-# IMPORTANT (NO __main__ block)
-
