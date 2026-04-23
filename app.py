@@ -10,3 +10,6 @@ def home():
 
     <button onclick="alert('Hello da 😎')">Click Me</button>
     """
+@app.route("/about")
+def about():
+    return "<h2>This is About Page 😎</h2>"
